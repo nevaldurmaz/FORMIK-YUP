@@ -1,6 +1,7 @@
 # 🧩 React Form Validasyon Projesi – Formik & Yup
 
-Bu proje, React kullanarak modern form yapısının nasıl yönetileceğini ve doğrulama işlemlerinin nasıl yapılacağını göstermektedir. **Formik** ve **Yup** kütüphaneleri ile iki farklı yaklaşımla form tasarımı yapılmıştır:
+Bu proje, React dünyasında form oluşturmanın ve doğrulamanın modern yollarını göstermek amacıyla geliştirilmiştir.
+Kullanıcı girdilerini yönetmek için Formik'in hem useFormik hook'u hem de Formik bileşeni kullanılmış; form validasyonları ise Yup ile sağlanmıştır.
 
 - `useFormik` kullanımı
 - `Formik`, `Field` ve `ErrorMessage` bileşenleriyle kullanım
@@ -21,12 +22,19 @@ Bu proje, React kullanarak modern form yapısının nasıl yönetileceğini ve d
 
 .
 ├── App.jsx
+
 ├── index.css
+
 ├── constants/index.js # Form alanlarını tanımlayan dizi
+
 ├── schema/index.js # Yup validasyon şeması
+
 ├── InputField.jsx # Reusable input bileşeni
+
 └── pages/
+
 ├── First.jsx # useFormik yapısı ile form
+
 └── Second.jsx # Formik bileşeni ile form
 
 ## 🧪 Özellikler
@@ -50,11 +58,14 @@ Bu proje, React kullanarak modern form yapısının nasıl yönetileceğini ve d
 1. Bu repoyu klonla:
 
 git clone https://github.com/kullaniciadi/formik-yup-form.git
+
 Klasöre gir ve bağımlılıkları yükle:
 
 Kodu kopyala
 cd formik-yup-form
+
 npm install
 Uygulamayı başlat:
+
 Kodu kopyala
 npm run dev

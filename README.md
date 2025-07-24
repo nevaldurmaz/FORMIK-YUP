@@ -7,25 +7,15 @@ Bu proje, React kullanarak modern form yapısının nasıl yönetileceğini ve d
 
 ## 🚀 Canlı Demo
 
-> (Buraya canlı demo linki eklersen harika olur)
-
----
+> ![Formik-Yup](./assets/FORMIK-YUP.gif)
 
 ## 🛠 Kullanılan Teknolojiler
 
-- [React](https://reactjs.org/)
-- [Formik](https://formik.org/)
-- [Yup](https://github.com/jquense/yup)
-- [Bootstrap](https://getbootstrap.com/)
+- [React]
+- [Formik]
+- [Yup]
+- [Bootstrap]
 - Custom CSS
-
----
-
-## 🖥️ Ekran Görüntüsü
-
-> (Buraya bir ekran görüntüsü veya gif eklersen, dikkat çeker 🎯)
-
----
 
 ## 📁 Klasör Yapısı
 
@@ -39,11 +29,6 @@ Bu proje, React kullanarak modern form yapısının nasıl yönetileceğini ve d
 ├── First.jsx # useFormik yapısı ile form
 └── Second.jsx # Formik bileşeni ile form
 
-yaml
-Kodu kopyala
-
----
-
 ## 🧪 Özellikler
 
 - ✅ Dinamik form alanları (`inputs` dizisi ile)
@@ -53,8 +38,6 @@ Kodu kopyala
 - ⏳ Submit işlemi simüle edilmiş `3 saniyelik` gecikmeyle
 - 🌗 Bootstrap ve özel CSS ile responsive & temiz arayüz
 
----
-
 ## 📌 Validasyon Kuralları (Yup)
 
 - **Email:** Geçerli format ve zorunluluk
@@ -62,35 +45,16 @@ Kodu kopyala
 - **Şifre:** En az 5 karakter, büyük-küçük harf, sayı ve özel karakter içermeli
 - **Şifre Onayı:** Şifre ile birebir eşleşmeli
 
----
-
-## 🔄 Form Türleri
-
-| Sayfa        | Açıklama                                                |
-| ------------ | ------------------------------------------------------- |
-| `First.jsx`  | `useFormik` ile form oluşturma                          |
-| `Second.jsx` | `Formik`, `Field` ve `ErrorMessage` bileşenleriyle form |
-
----
-
 ## 📦 Kurulum
 
 1. Bu repoyu klonla:
 
-```bash
 git clone https://github.com/kullaniciadi/formik-yup-form.git
 Klasöre gir ve bağımlılıkları yükle:
 
-bash
 Kodu kopyala
 cd formik-yup-form
 npm install
 Uygulamayı başlat:
-
-bash
 Kodu kopyala
 npm run dev
-
-![Formik-Yup](./assets/FORMIK-YUP.gif)
-```
-# FORMIK-YUP
